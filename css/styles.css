@@ -8,20 +8,20 @@ header h1 {
     text-align: center;
 }
 .content {
-    max-width: 300px;
+    max-width: 270px;
     background-color: #e2e2e2;
     margin: 0 auto;
     -webkit-box-shadow: 3px 4px 21px 0px rgba(0,0,0,0.75);
     -moz-box-shadow: 3px 4px 21px 0px rgba(0,0,0,0.75);
     box-shadow: 3px 4px 21px 0px rgba(0,0,0,0.75);
-    padding: 20px;
+    padding: 15px;
     border-radius: 5px;
 }
 .content h4 {
     display: inline-block;
 }
 .row {
-    margin-top: 30px;
+    margin-top: 20px;
     width: 100%;
 }
 h4 {
