@@ -10,46 +10,48 @@
 <header>
     <h1>Choose your priority</h1>
 </header>
-<div class="content">
-    <div class="row" id="career">
-			<div class="onoffswitch" >
-			    <input type="checkbox" name="onoffswitch" onclick="checkPriority(this)" class="onoffswitch-checkbox" id="careerSwitch">
-			    <label class="onoffswitch-label" for="careerSwitch">
-			        <span class="onoffswitch-inner"></span>
-			        <span class="onoffswitch-switch"></span>
-			    </label>
-			</div>
-    		<h4>
-    			Career
-    			<i class="fa fa-briefcase" aria-hidden="true"></i>
-    		</h4>
-    </div>
-    <div class="row" id="family">
-			<div class="onoffswitch" >
-			    <input type="checkbox" name="onoffswitch" onclick="checkPriority(this)" class="onoffswitch-checkbox" id="familySwitch">
-			    <label class="onoffswitch-label" for="familySwitch">
-			        <span class="onoffswitch-inner"></span>
-			        <span class="onoffswitch-switch"></span>
-			    </label>
-			</div>
-    		<h4>
-	    		Family
-	    		<i class="fa fa-home" aria-hidden="true"></i>
-    		</h4>
-    </div>
-    <div class="row" id="health">
-			<div class="onoffswitch" >
-			    <input type="checkbox" name="onoffswitch" onclick="checkPriority(this)" class="onoffswitch-checkbox" id="healthSwitch">
-			    <label class="onoffswitch-label" for="healthSwitch">
-			        <span class="onoffswitch-inner"></span>
-			        <span class="onoffswitch-switch"></span>
-			    </label>
-			</div>
-    		<h4>
-    			Health
-	    		<i class="fa fa-heart" aria-hidden="true"></i>
-    		</h4>
-    </div>
+<div class="container">
+	<div class="content">
+	    <div class="row" id="career">
+				<div class="onoffswitch" >
+				    <input type="checkbox" name="onoffswitch" data-index="0" onclick="checkPriority(this)" class="onoffswitch-checkbox" id="careerSwitch">
+				    <label class="onoffswitch-label" for="careerSwitch">
+				        <span class="onoffswitch-inner"></span>
+				        <span class="onoffswitch-switch"></span>
+				    </label>
+				</div>
+	    		<h4>
+	    			Career
+	    			<i class="fa fa-briefcase" aria-hidden="true"></i>
+	    		</h4>
+	    </div>
+	    <div class="row" id="family">
+				<div class="onoffswitch" >
+				    <input type="checkbox" name="onoffswitch" data-index="1"onclick="checkPriority(this)" class="onoffswitch-checkbox" id="familySwitch">
+				    <label class="onoffswitch-label" for="familySwitch">
+				        <span class="onoffswitch-inner"></span>
+				        <span class="onoffswitch-switch"></span>
+				    </label>
+				</div>
+	    		<h4>
+		    		Family
+		    		<i class="fa fa-home" aria-hidden="true"></i>
+	    		</h4>
+	    </div>
+	    <div class="row" id="health">
+				<div class="onoffswitch" >
+				    <input type="checkbox" name="onoffswitch" data-index="2" onclick="checkPriority(this)" class="onoffswitch-checkbox" id="healthSwitch">
+				    <label class="onoffswitch-label" for="healthSwitch">
+				        <span class="onoffswitch-inner"></span>
+				        <span class="onoffswitch-switch"></span>
+				    </label>
+				</div>
+	    		<h4>
+	    			Health
+		    		<i class="fa fa-heart" aria-hidden="true"></i>
+	    		</h4>
+	    </div>		
+	</div>
 </div>
 <script src="js/script.js"></script>
 </body>
