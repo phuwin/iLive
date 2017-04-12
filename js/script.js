@@ -1,7 +1,7 @@
-var priorities = [{switch:document.querySelector("#s0")},{switch:document.querySelector("#s1")},{switch:document.querySelector("#s2")}]
+var priorities = [{switch:document.querySelector("#careerSwitch")},{switch:document.querySelector("#familySwitch")},{switch:document.querySelector("#healthSwitch")}]
 
 function checkPriority(e){
-    if (document.querySelector("#s0").checked && document.querySelector("#s1").checked && document.querySelector("#s2").checked) {
+    if (document.querySelector("#careerSwitch").checked && document.querySelector("#familySwitch").checked && document.querySelector("#healthSwitch").checked) {
 		var index = e.id[1]
 		var _priorities = priorities.slice()
 		_priorities.splice(index,1)
